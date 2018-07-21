@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F0E6FD"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/add_name"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="40dp"
+        android:hint="请输入企业名称"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/add_ID"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="94dp"
+        android:hint="请输入设备ID"
+        android:inputType="number"
+        android:maxLength="11"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/widget39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="55dp"
+        android:layout_y="54dp"
+
+        android:text="企业名称：" />
+
+    <TextView
+        android:id="@+id/widget40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="106dp"
+
+        android:text="设备ID：" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="223dp"
+        android:text="保存" />
+
+    <Button
+        android:id="@+id/cancel_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="209dp"
+        android:layout_y="224dp"
+        android:text="返回" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_x="60dp"
+        android:layout_y="166dp"
+        android:text="注册时间："
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <EditText
+        android:id="@+id/zhucetime"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_x="148dp"
+        android:layout_y="151dp"
+        android:ems="10"
+        android:hint="请输入注册时间"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+</AbsoluteLayout>

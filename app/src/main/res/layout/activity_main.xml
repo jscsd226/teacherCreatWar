@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/testname"
+        android:layout_width="266dp"
+        android:layout_height="35dp"
+        android:layout_x="14dp"
+        android:layout_y="7dp"
+        android:hint="传过来的用户名" />
+
+    <Button
+        android:id="@+id/tuichu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="291dp"
+        android:layout_y="0dp"
+        android:text="退出" />
+
+    <Button
+        android:id="@+id/xinzeng"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="462dp"
+        android:text="新增" />
+
+    <Button
+        android:id="@+id/xiugai"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_x="143dp"
+        android:layout_y="460dp"
+        android:text="修改" />
+
+    <Button
+        android:id="@+id/me"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_x="271dp"
+        android:layout_y="460dp"
+        android:text="我的" />
+
+
+    <EditText
+        android:id="@+id/guanjianzi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="117dp"
+        android:layout_y="406dp"
+        android:hint="请输入查询的关键字"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/chaxunbit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="293dp"
+        android:layout_y="403dp"
+        android:text="查询" />
+
+    <TextView
+
+        android:id="@+id/chaxun"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:layout_x="16dp"
+        android:layout_y="409dp"
+        android:text="查询" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="368dp"
+        android:layout_height="324dp"
+        android:layout_alignParentTop="true"
+        android:layout_x="6dp"
+        android:layout_y="62dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+</AbsoluteLayout>

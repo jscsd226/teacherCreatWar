@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/xuhao1"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:hint="序号"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/ID1"
+        android:layout_width="130dp"
+        android:layout_height="41dp"
+        android:layout_x="65dp"
+        android:layout_y="0dp"
+        android:hint="设备ID"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="9dp" />
+
+    <TextView
+        android:id="@+id/xuliehao1"
+        android:layout_width="178dp"
+        android:layout_height="40dp"
+        android:layout_x="199dp"
+        android:layout_y="1dp"
+        android:textSize="30dp"
+        android:hint="注册序列号"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="11dp" />
+
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:layout_x="7dp"
+        android:layout_y="39dp"
+        android:hint="注册时间"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="213dp"
+        android:layout_height="37dp"
+        android:layout_x="163dp"
+        android:textSize="30dp"
+        android:layout_y="42dp"
+        android:hint="企业名称"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="94dp" />
+</AbsoluteLayout>
